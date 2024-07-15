@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+:root {
+  --branco: #f6f5f5;
+  --azul-background: #141c2e;
+  --azul-blocos: #1f293f;
+  --azul-footer: #0e1424;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: #141c2e;
+  color: #f6f5f5;
+  font-family: "Inconsolata";
+}
+.bloco-com-criptografia-descriptografia {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8%;
+}
+.mensagem-input {
+  height: 460px;
+  width: 660px;
+  color: var(--branco);
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border-color: var(--azul-blocos);
+  background-color: var(--azul-blocos);
+}
+/* organizar itens no bloco output*/
+.bloco-output {
+  height: 460px;
+  width: 660px;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: var(--azul-blocos);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#imagem-output {
+  transition: all 2s;
+}
+#imagem-output:hover {
+  transition: all 1s;
+  transform: scale(0.7);
+}
+.bloco-botao {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
+}
+.botao,
+.botao-enviar-sugestao {
+  background-color: var(--azul-blocos);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.botao:hover {
+  transition: all 0.1s;
+  transform: scale(1.1);
+}
+footer {
+  background-color: var(--azul-footer);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-top: 5%;
+  padding: 60px 0;
+}
+.bloco-link {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.link {
+  padding: 6px;
+}
+.bloco-link,
+.bloco-divulgar-projeto,
+.bloco-versiculo,
+.item-sugestao-titulo {
+  padding-top: 20px;
+}
+.item-sugestao {
+  margin-top: 5px;
+}
+.botao-enviar-sugestao {
+  padding: 8px 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #658de4;
+}

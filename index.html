@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/app.js"></script>
+    <link rel="shortcut icon" href="imgs/gear.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Criptografias</title>
+  </head>
+  <body>
+    <header>
+      <h1>Criptografia</h1>
+    </header>
+    <main class="bloco-com-criptografia-descriptografia">
+      <!--BLOCO DO INPUT-->
+      <div class="bloco-input">
+        <textarea
+          id="mensagem-input"
+          placeholder=" Digite seu texto por aqui em letras minúsculas e sem acentos!"
+          class="mensagem-input"
+        ></textarea>
+      </div>
+      <!----------------------------->
+
+      <!--BLOCO OUTPUT-->
+      <div class="bloco-output" id="bloco-output">
+        <img
+          src="imgs/lupa200x200.svg"
+          width="200"
+          height="200"
+          alt="Imagem de uma lupa"
+          id="imagem-output"
+        />
+        <h1 id="titulo-output">Nenhuma mensagem encontrada!</h1>
+        <p id="mensagem-output">
+          Digite um texto que você deseja criptografar ou descriptografar.
+        </p>
+      </div>
+      <!----------------------------->
+
+      <!--BLOCO DO BOTAO-->
+    </main>
+    <div class="bloco-botao">
+      <a
+        href="#"
+        class="botao"
+        id="botao-criptografar"
+        onclick="criptografar_descriptografar(0)"
+        >Criptografar</a
+      >
+      <a
+        href="#"
+        class="botao"
+        id="botao-descriptografar"
+        onclick="criptografar_descriptografar(1)"
+        >Descriptografar</a
+      >
+      <a href="#" class="botao" id="botao-copiar" onclick="copiar()">Copiar</a>
+    </div>
+    <!----------------------------->
+    <footer>
+      <!----------------------------->
+      <div class="bloco-rede-social">
+        <ul class="bloco-link">
+          <li class="link">Acompanhe:</li>
+          <li class="link">
+            <a href="https://github.com/iambel" target="_blank">
+              <img
+                src="imgs/github-claro.png"
+                height="35"
+                width="35"
+                alt="Ícone do Github"
+                onmouseover="this.src='./imgs/github-lilas.png'"
+                onmouseout="this.src='./imgs/github-claro.png'"
+              />
+            </a>
+          </li>
+          <li class="link">
+            <a href="https://www.linkedin.com/in/iambel/" target="_blank">
+              <img
+                src="imgs/linkedin-claro.png"
+                height="35"
+                width="35"
+                alt="Ícone do LinkedIn"
+                onmouseover="this.src='./imgs/linkedin-lilas.png'"
+                onmouseout="this.src='./imgs/linkedin-claro.png'"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!----------------------------->
+      <div class="bloco-divulgar-projeto">
+        <p>
+          Quer ver como eu fiz esse website? Veja por aqui:
+          <a href="#">projeto-criptografia</a>
+        </p>
+      </div>
+      <!----------------------------->
+      <div class="bloco-versiculo">
+        <p>
+          Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao
+          Pai, a não ser por mim. João 14:6
+        </p>
+      </div>
+      <!----------------------------->
+      <div class="bloco-sugestao">
+        <p class="item-sugestao-titulo">Quer me enviar alguma sugestão?</p>
+        <input
+          class="item-sugestao"
+          id="email"
+          type="email"
+          size="30"
+          maxlength="50"
+          placeholder=" Insira o seu e-mail"
+          pattern=".+@example\.com"
+          required
+        />
+        <textarea
+          class="item-sugestao"
+          placeholder=" Insira aqui a sua sugestão."
+          rows="5"
+          cols="40"
+          required
+        ></textarea>
+        <a
+          href="#"
+          class="botao-enviar-sugestao"
+          id="botao-enviar-sugestao"
+          onclick="enviar()"
+          >Enviar</a
+        >
+      </div>
+      <!----------------------------->
+    </footer>
+  </body>
+</html>
