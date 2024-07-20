@@ -4,8 +4,8 @@ function criptografar_descriptografar(opcao) {
   let texto = document.getElementById("mensagem-input").value;
   if (opcao == criptografar) {
     texto = texto.replace(/e/g, "enter");
-    texto = texto.replace(/a/g, "ai");
     texto = texto.replace(/i/g, "imes");
+    texto = texto.replace(/a/g, "ai");
     texto = texto.replace(/o/g, "ober");
     texto = texto.replace(/u/g, "ufat");
   } else if (opcao == descriptografar) {
