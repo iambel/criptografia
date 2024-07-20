@@ -10,8 +10,8 @@ function criptografar_descriptografar(opcao) {
     texto = texto.replace(/u/g, "ufat");
   } else if (opcao == descriptografar) {
     texto = texto.replace(/enter/g, "e");
-    texto = texto.replace(/ai/g, "a");
     texto = texto.replace(/imes/g, "i");
+    texto = texto.replace(/ai/g, "a");
     texto = texto.replace(/ober/g, "o");
     texto = texto.replace(/ufat/g, "u");
   }
