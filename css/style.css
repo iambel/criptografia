@@ -99,3 +99,52 @@ a {
 a:hover {
   color: #658de4;
 }
+
+@media only screen and (max-width: 768px) {
+  .bloco-com-criptografia-descriptografia {
+    flex-direction: column;
+    gap: 10px 0px;
+    align-items: center;
+  }
+  .mensagem-input {
+    height: 250px;
+    width: 200px;
+    padding: 32px;
+  }
+  .bloco-output {
+    height: 450px;
+    width: 200px;
+    padding: 35px;
+  }
+  .bloco-botao {
+    flex-direction: column;
+    align-items: center;
+  }
+  .botao,
+  .botao-enviar-sugestao {
+    padding: 20px 30px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .bloco-link,
+  .bloco-divulgar-projeto,
+  .bloco-versiculo,
+  .item-sugestao-titulo {
+    padding-top: 20px;
+    margin: 0 20px;
+  }
+  .item-sugestao-titulo,
+  .item-sugestao {
+    margin: 5px 50px;
+  }
+  .botao-enviar-sugestao {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 50px;
+  }
+}
