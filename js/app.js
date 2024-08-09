@@ -4,14 +4,14 @@ function criptografar_descriptografar(opcao) {
   let texto = document.getElementById("mensagem-input").value;
   if (opcao == criptografar) {
     texto = texto.replace(/e/g, "enter");
-    texto = texto.replace(/i/g, "imes");
     texto = texto.replace(/a/g, "ai");
+    texto = texto.replace(/i/g, "imes");
     texto = texto.replace(/o/g, "ober");
     texto = texto.replace(/u/g, "ufat");
   } else if (opcao == descriptografar) {
     texto = texto.replace(/enter/g, "e");
-    texto = texto.replace(/imes/g, "i");
     texto = texto.replace(/ai/g, "a");
+    texto = texto.replace(/imes/g, "i");
     texto = texto.replace(/ober/g, "o");
     texto = texto.replace(/ufat/g, "u");
   }
@@ -25,4 +25,4 @@ function copiar() {
   navigator.clipboard.writeText(texto);
 }
 
-//site do icone pra nao ser processada: <a target="_blank" href="https://icons8.com/icon/112468/search">Pesquisar</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>
+//site do icone pra nao ser processadakkkkkkk: <a target="_blank" href="https://icons8.com/icon/112468/search">Pesquisar</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>
