@@ -3,7 +3,9 @@ Acesse aqui: https://criptografia-nine.vercel.app/
 > obs: utilize letras minúsculas e sem acentos para o resultado sair corretamente. Além disso,
 > o projeto ainda aprensenta algumas funcionalidades pendentes, mas que serão resolvidas em breve ;)
 
-## 💻 Desktop (1024px)
+## 💻 Desktop
 
-![imagem do projeto em versão desktop](imgs/criptografia-desktop1024.png)
+![image of desktop version](imgs/desktop-version.png)
 ***
+## 📱 Mobile
+![image of mobile version](imgs/mobile-version.png)
