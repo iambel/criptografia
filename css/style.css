@@ -6,7 +6,6 @@
   --azul-footer: #0e1424;
 }
 /*desktop version*/
-@media only screen and (min-width: 992px) {
   header {
     display: flex;
     justify-content: center;
@@ -101,7 +100,6 @@
   a:hover {
     color: #658de4;
   }
-}
 
 /*mobile version*/
 @media only screen and (max-width: 600px) {
