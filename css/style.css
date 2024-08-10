@@ -108,13 +108,26 @@ a:hover {
     gap: 10px 0px;
     align-items: center;
   }
-  .item-sugestao-titulo,
-  .item-sugestao {
-    margin: 5px 50px;
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
   }
+  .bloco-versiculo {
+    margin: 0 120px;
+  }
+  .item-sugestao-titulo {
+    text-align: center;
+  }
+  .item-sugestao {
+    display: block;
+    margin-left: 10%;
+  }
+
   .botao-enviar-sugestao {
     display: block;
-    margin: 10px 50px;
+    margin: 10px 30px;
     text-align: center;
     width: 50px;
   }
