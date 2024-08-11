@@ -37,7 +37,7 @@ A letra "u" é convertida para "ufat"
 
 **Copiar**: essa função pode ser utilizada com o interesse de copiá-la, quem sabe, para enviar ou publicar em outro lugar (plataforma).
 
-**Modo claro/escuro**: O site já vem na versão *dark mode* como padrão para preservar a sua visão, mas você pode mudar para o *light mode* tranquilamente; basta clicar no botão no canto superior direito.
+**Modo claro/escuro**: O site já vem na versão *dark mode* como padrão para preservar a sua visão, mas você pode mudar para o *light mode* tranquilamente; basta clicar no botão no canto superior direito. <img src='imgs/sun-light.png' width='17' height='17'>
 
 **Caixa de e-mail**: 
 > em breve
