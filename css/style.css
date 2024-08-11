@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 :root {
   --branco: #f6f5f5;
   --azul-background: #141c2e;
@@ -8,12 +12,36 @@
 /*desktop version*/
 header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin: 20px 0;
+}
+.header-titulo {
+  padding-right: 42%;
+  transition: 0.9s;
+}
+body.light .header-titulo {
+  color: #25335c;
+  transition: 0.9s;
+}
+.tema-claro-escuro {
+  margin-right: 20px;
+  transition: all 0.2s;
+  transform-origin: center;
+}
+.tema-claro-escuro:hover {
+  transition: all 0.5s;
+  transform: rotate(50deg);
 }
 body {
-  background-color: #141c2e;
+  background-color: var(--azul-background);
   color: #f6f5f5;
   font-family: "Inconsolata";
+  transition: 0.9s;
+}
+body.light {
+  background: #b7b4da;
+  transition: 0.9s;
 }
 .bloco-com-criptografia-descriptografia {
   display: flex;
@@ -29,8 +57,8 @@ body {
   border-radius: 30px;
   border-color: var(--azul-blocos);
   background-color: var(--azul-blocos);
+  transition: 0.9s;
 }
-/* organizar itens no bloco output*/
 .bloco-output {
   height: 460px;
   width: 660px;
@@ -41,13 +69,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 0.9s;
+}
+body.light .mensagem-input,
+body.light .bloco-output {
+  border-color: #9e98ce;
+  background-color: #9e98ce;
+  color: #ffffff;
+  transition: 0.9s;
 }
 #imagem-output {
-  transition: all 2s;
+  transition: all 0.7s;
 }
 #imagem-output:hover {
-  transition: all 1s;
-  transform: scale(0.7);
+  transition: all 0.8s;
+  transform: rotate(19deg) scale(0.9);
 }
 .bloco-botao {
   display: flex;
@@ -61,6 +97,9 @@ body {
   padding: 10px 20px;
   border-radius: 10px;
 }
+body.light .botao {
+  background-color: #2a2661;
+}
 .botao:hover {
   transition: all 0.1s;
   transform: scale(1.1);
@@ -71,7 +110,12 @@ footer {
   justify-content: space-evenly;
   gap: 50px;
   margin-top: 5%;
-  padding: 60px 0;
+  padding: 60px 50px;
+  transition: 0.9s;
+}
+body.light footer {
+  background-color: #2a2661;
+  transition: 0.9s;
 }
 .bloco-link {
   display: flex;
@@ -93,6 +137,12 @@ footer {
 .botao-enviar-sugestao {
   padding: 8px 10px;
 }
+.botao-enviar-sugestao.light {
+  background-color: var(--cinza-blocos);
+}
+body.light .botao-enviar-sugestao {
+  background-color: #8780bb;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -103,6 +153,9 @@ a:hover {
 
 /*tablet version*/
 @media only screen and (max-width: 900px) {
+  .header-titulo {
+    padding-right: 30%;
+  }
   .bloco-com-criptografia-descriptografia {
     flex-direction: column;
     gap: 10px 0px;
@@ -135,6 +188,9 @@ a:hover {
 
 /*mobile version*/
 @media only screen and (max-width: 600px) {
+  .header-titulo {
+    padding-right: 13%;
+  }
   .bloco-com-criptografia-descriptografia {
     flex-direction: column;
     gap: 10px 0px;

@@ -24,5 +24,24 @@ function copiar() {
   let texto = document.getElementById("mensagem-output").innerText;
   navigator.clipboard.writeText(texto);
 }
+/*botao pra mudar o tema */
+let imgTemaClaro = "imgs/sun-light.png";
+let imgTemaEscuro = "imgs/moon-dark.png";
+function trocarImagem() {
+  const img = document.getElementById("imagem-tema");
+  if (document.body.classList.contains("light")) {
+    img.src = imgTemaEscuro;
+  } else {
+    img.src = imgTemaClaro;
+  }
+}
+function trocarTema() {
+  document.body.classList.toggle("light");
+  trocarImagem();
+}
+const mudarTema = document.getElementById("mudarTema");
+mudarTema.addEventListener("click", function () {
+  trocarTema();
+});
 
 //site do icone pra nao ser processadakkkkkkk: <a target="_blank" href="https://icons8.com/icon/112468/search">Pesquisar</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>

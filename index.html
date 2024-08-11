@@ -3,14 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/app.js"></script>
     <link rel="shortcut icon" href="imgs/gear.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Criptografia</title>
   </head>
   <body>
     <header>
-      <h1>Criptografia</h1>
+      <h1 class="header-titulo">Criptografia</h1>
+      <a
+        href="javascript:void(0);"
+        id="mudarTema"
+        onclick="trocarImagem()"
+        onclick="trocarTema()"
+        ><img
+          id="imagem-tema"
+          class="tema-claro-escuro"
+          src="imgs/sun-light.png"
+          width="35"
+          height="35"
+          alt="Tema  claro ou escuro"
+      /></a>
     </header>
     <main class="bloco-com-criptografia-descriptografia">
       <!--BLOCO DO INPUT-->
@@ -64,81 +76,82 @@
         >Copiar</a
       >
     </div>
-    <!----------------------------->
-    <footer>
-      <!----------------------------->
-      <div class="bloco-rede-social">
-        <ul class="bloco-link">
-          <li class="link">Acompanhe:</li>
-          <li class="link">
-            <a href="https://github.com/iambel" target="_blank">
-              <img
-                src="imgs/github-claro.png"
-                height="35"
-                width="35"
-                alt="Ícone do Github"
-                onmouseover="this.src='./imgs/github-lilas.png'"
-                onmouseout="this.src='./imgs/github-claro.png'"
-              />
-            </a>
-          </li>
-          <li class="link">
-            <a href="https://www.linkedin.com/in/iambel/" target="_blank">
-              <img
-                src="imgs/linkedin-claro.png"
-                height="35"
-                width="35"
-                alt="Ícone do LinkedIn"
-                onmouseover="this.src='./imgs/linkedin-lilas.png'"
-                onmouseout="this.src='./imgs/linkedin-claro.png'"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!----------------------------->
-      <div class="bloco-divulgar-projeto">
-        <p>
-          Quer ver como eu fiz esse website? Veja por aqui:
-          <a href="https://github.com/iambel/criptografia">criptografia</a>
-        </p>
-      </div>
-      <!----------------------------->
-      <div class="bloco-versiculo">
-        <p>
-          Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao
-          Pai, a não ser por mim. João 14:6
-        </p>
-      </div>
-      <!----------------------------->
-      <div class="bloco-sugestao">
-        <p class="item-sugestao-titulo">Quer me enviar alguma sugestão?</p>
-        <input
-          class="item-sugestao"
-          id="email"
-          type="email"
-          size="30"
-          maxlength="50"
-          placeholder=" Insira o seu e-mail"
-          pattern=".+@example\.com"
-          required
-        />
-        <textarea
-          class="item-sugestao"
-          placeholder=" Insira aqui a sua sugestão."
-          rows="5"
-          cols="40"
-          required
-        ></textarea>
-        <a
-          href="javascript:void(0);"
-          class="botao-enviar-sugestao"
-          id="botao-enviar-sugestao"
-          onclick="enviar()"
-          >Enviar</a
-        >
-      </div>
-      <!----------------------------->
-    </footer>
+    <script src="js/app.js"></script>
   </body>
+  <!----------------------------->
+  <footer>
+    <!----------------------------->
+    <div class="bloco-rede-social">
+      <ul class="bloco-link">
+        <li class="link">Acompanhe:</li>
+        <li class="link">
+          <a href="https://github.com/iambel" target="_blank">
+            <img
+              src="imgs/github-claro.png"
+              height="35"
+              width="35"
+              alt="Ícone do Github"
+              onmouseover="this.src='./imgs/github-lilas.png'"
+              onmouseout="this.src='./imgs/github-claro.png'"
+            />
+          </a>
+        </li>
+        <li class="link">
+          <a href="https://www.linkedin.com/in/iambel/" target="_blank">
+            <img
+              src="imgs/linkedin-claro.png"
+              height="35"
+              width="35"
+              alt="Ícone do LinkedIn"
+              onmouseover="this.src='./imgs/linkedin-lilas.png'"
+              onmouseout="this.src='./imgs/linkedin-claro.png'"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!----------------------------->
+    <div class="bloco-divulgar-projeto">
+      <p>
+        Quer ver como eu fiz esse website? Veja por aqui:
+        <a href="https://github.com/iambel/criptografia">criptografia</a>
+      </p>
+    </div>
+    <!----------------------------->
+    <div class="bloco-versiculo">
+      <p>
+        Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao
+        Pai, a não ser por mim. João 14:6
+      </p>
+    </div>
+    <!----------------------------->
+    <div class="bloco-sugestao">
+      <p class="item-sugestao-titulo">Quer me enviar alguma sugestão?</p>
+      <input
+        class="item-sugestao"
+        id="email"
+        type="email"
+        size="30"
+        maxlength="50"
+        placeholder=" Insira o seu e-mail"
+        pattern=".+@example\.com"
+        required
+      />
+      <textarea
+        class="item-sugestao"
+        placeholder=" Insira aqui a sua sugestão."
+        rows="5"
+        cols="40"
+        required
+      ></textarea>
+      <a
+        href="javascript:void(0);"
+        class="botao-enviar-sugestao"
+        id="botao-enviar-sugestao"
+        onclick="enviar()"
+        >Enviar</a
+      >
+    </div>
+    <!----------------------------->
+  </footer>
 </html>
