@@ -4,22 +4,22 @@
 > o projeto ainda aprensenta algumas funcionalidades pendentes, mas que serão resolvidas em breve ;)
 ### ÍNDICE
 
-[Descrição](#descrição)
+1. [Descrição](#descrição)
    
-[Funcionalidades](#funcionalidades)
+2. [Funcionalidades](#funcionalidades)
    
-[Responsividade](#responsividade)
+3. [Responsividade](#responsividade)
    
-[Conclusão](#conclusão)
+4. [Conclusão](#conclusão)
 
 ###  DESCRIÇÃO
   Visando a troca de informações codificadas entre o emissor e o receptor, este projeto foi desenvolvido no programa *One Next Education* (Oracle e Alura). É um meio muito interessante para enviar mensagens secretas ao seu amigo! (risos). Foi divertido desenvolvê-lo; aproveitei a liberdade que o programa dá, criei o meu próprio design e acrescentei algumas funções que serão explicadas posteriormente. Tenha um bom proveito!
 
 ###  FUNCIONALIDADES
-  **Codificar e decodificar**: as vogais das sentenças serão substituídas por outro conjunto de letras, exemplo: a vogal "o" vira "ober" e a vogal "i" vira "imes". Se codificasse a palavra "livro", viraria "limesvrober". Para a decodificação, o processo seria o inverso, sacou? :). Consulte a tabela abaixo com as vogais e suas conversões:
-
+  **Codificar e decodificar**: as vogais das sentenças serão substituídas por outro conjunto de letras, exemplo: a vogal "o" vira "ober" e a vogal "i" vira "imes". Se codificasse a palavra "livro", viraria "limesvrober". Para a decodificação, o processo seria o inverso, sacou? :). E lembrando, para adquirir um resultado melhor, utilize letras minúsculas e sem acentos. Consulte a tabela abaixo com as vogais e suas conversões:
+  
 Vogais   | Conversões
-:---------: | :------:
+:---------: | :------:         
 a | ai
 e | enter
 i | imes
@@ -27,25 +27,15 @@ o | ober
 u | ufat
 
 
-A letra "e" é convertida para "enter"
-A letra "i" é convertida para "imes"
-A letra "a" é convertida para "ai"
-A letra "o" é convertida para "ober"
-A letra "u" é convertida para "ufat"
-
-
-
 **Copiar**: essa função pode ser utilizada com o interesse de copiá-la, quem sabe, para enviar ou publicar em outro lugar (plataforma).
 
 **Modo claro/escuro**: O site já vem na versão *dark mode* como padrão para preservar a sua visão, mas você pode mudar para o *light mode* tranquilamente; basta clicar no botão no canto superior direito. <img src='imgs/sun-light.png' width='17' height='17'>
 
+**Leitor de texto**: Buscando tornar o site mais acessível, foi criada a função de leitura de texto. É possível ativar o leitor acessando o menu <img src='imgs/menu-dark.png' width='20' height='20'>. Por enquanto, está disponível apenas em português brasileiro.<img src='imgs/voice-light.png' width='17' height='17'>
+
+**Idioma**: Com o mesmo intuito, há a opção de trocar o idioma do site para inglês, uma língua mais universal. 🌎
+
 **Caixa de e-mail**: 
-> em breve
-
-**Leitor de texto**: 
-> em breve
-
-**Idioma**: 
 > em breve
 
 ###  RESPONSIVIDADE
@@ -59,7 +49,7 @@ A letra "u" é convertida para "ufat"
 > em breve
 
 ###  CONCLUSÃO
-Isso é tudo, pessoal. Acredito que esta aplicação servirá ao seu devido fim (codificar e decodificar) e, quem sabe, poderá ser divertida. O projeto busca ser intuitivo e simples de usar, além de acessível a todos. Por fim, caso encontre algum bug, erro relacionado ao desempenho, design ou funcionamento do código, ou tenha uma sugestão de implementação, fique à vontade para me enviar. Analisarei a sua proposta! Tenha um bom dia, que Deus te abençoe.
+That's all Folks! Acredito que esta aplicação servirá ao seu devido fim (codificar e decodificar) e, quem sabe, poderá ser divertida. O projeto busca ser intuitivo e simples de usar, além de acessível a todos. Por fim, caso encontre algum bug, erro relacionado ao desempenho, design ou funcionamento do código, ou tenha uma sugestão de implementação, fique à vontade para me enviar. Analisarei a sua proposta! Tenha um bom dia, que Deus te abençoe.
 
       João 14:06
       Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
