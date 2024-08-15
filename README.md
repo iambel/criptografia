@@ -42,11 +42,13 @@ u | ufat
   O site é responsivo, ou seja, ele se adapta de acordo com o dispositivo que você estiver utilizando. Ele é adaptável para mobile (celulares e alguns tipos de tablets), tablets e desktop (notebooks e computadores, em geral). Você verá como o sistema se comporta em cada dispositivo logo abaixo:
 
 ## 💻 Desktop
-> em breve
+<img src='mobile-version-.png'>
+
 ## 📱 Mobile
-> em breve
+<img src='mobile-version.png'>
+
 ## 🔳 Tablet
-> em breve
+<img src='tablet-version.png'>
 
 ###  CONCLUSÃO
 That's all Folks! Acredito que esta aplicação servirá ao seu devido fim (codificar e decodificar) e, quem sabe, poderá ser divertida. O projeto busca ser intuitivo e simples de usar, além de acessível a todos. Por fim, caso encontre algum bug, erro relacionado ao desempenho, design ou funcionamento do código, ou tenha uma sugestão de implementação, fique à vontade para me enviar. Analisarei a sua proposta! Tenha um bom dia, que Deus te abençoe.
