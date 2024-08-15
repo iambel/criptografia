@@ -9,23 +9,57 @@
   --azul-blocos: #1f293f;
   --azul-footer: #0e1424;
 }
-/*desktop version*/
+/*-------------------------------------------------*/
 header {
   display: flex;
   justify-content: flex-end;
-  align-items: baseline;
   margin: 20px 0;
+  gap: 20px;
 }
 .header-titulo {
-  padding-right: 42%;
+  padding-right: 33%;
   transition: 0.9s;
 }
 body.light .header-titulo {
   color: #25335c;
   transition: 0.9s;
 }
+.gtranslate_wrapper {
+  padding-top: 11px;
+}
+.header-menu {
+  list-style: none;
+  padding: 0px 20px;
+}
+.imagem-idioma {
+  background-color: #ffffff;
+  padding: 0.2px;
+  border-radius: 20px;
+}
+.dropdown-menu {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.dropdown-menu a {
+  display: block;
+}
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+.imagem-leitor-texto {
+  padding-right: 9px;
+  transition: all 0.5s;
+}
+.imagem-leitor-texto:hover {
+  transform: scale(1.1);
+  transition: all 0.7s;
+}
+
 .tema-claro-escuro {
-  margin-right: 20px;
+  margin-right: 35px;
   transition: all 0.2s;
   transform-origin: center;
 }
@@ -33,6 +67,8 @@ body.light .header-titulo {
   transition: all 0.5s;
   transform: rotate(50deg);
 }
+/*-------------------------------------------------*/
+
 body {
   background-color: var(--azul-background);
   color: #f6f5f5;
@@ -43,6 +79,8 @@ body.light {
   background: #b7b4da;
   transition: 0.9s;
 }
+/*-------------------------------------------------*/
+
 .bloco-com-criptografia-descriptografia {
   display: flex;
   justify-content: space-between;
@@ -104,6 +142,8 @@ body.light .botao {
   transition: all 0.1s;
   transform: scale(1.1);
 }
+/*-------------------------------------------------*/
+
 footer {
   background-color: var(--azul-footer);
   display: flex;
@@ -154,7 +194,7 @@ a:hover {
 /*tablet version*/
 @media only screen and (max-width: 900px) {
   .header-titulo {
-    padding-right: 30%;
+    padding-right: 5%;
   }
   .bloco-com-criptografia-descriptografia {
     flex-direction: column;
@@ -176,6 +216,13 @@ a:hover {
   .item-sugestao {
     display: block;
     margin-left: 10%;
+    width: 250px;
+    height: 100px;
+  }
+
+  #email {
+    width: 250px;
+    height: 20px;
   }
 
   .botao-enviar-sugestao {
@@ -189,7 +236,18 @@ a:hover {
 /*mobile version*/
 @media only screen and (max-width: 600px) {
   .header-titulo {
-    padding-right: 13%;
+    padding-right: 25%;
+    padding-bottom: 15px;
+  }
+  .gtranslate_wrapper {
+    padding-right: 35%;
+    padding-top: 40px;
+    position: absolute;
+  }
+  .header-menu {
+    padding-top: 11px;
+    padding-right: 25px;
+    position: absolute;
   }
   .bloco-com-criptografia-descriptografia {
     flex-direction: column;
@@ -227,9 +285,17 @@ a:hover {
     padding-top: 20px;
     margin: 0 20px;
   }
-  .item-sugestao-titulo,
+  .item-sugestao-titulo {
+    margin: 5px 0px;
+  }
   .item-sugestao {
-    margin: 5px 50px;
+    width: 250px;
+    height: 70px;
+    margin: 5px 0px;
+  }
+  #email {
+    width: 250px;
+    height: 25px;
   }
   .botao-enviar-sugestao {
     display: block;
