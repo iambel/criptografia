@@ -53,6 +53,8 @@ u | ufat
 ###  CONCLUSÃO
 That's all Folks! Acredito que esta aplicação servirá ao seu devido fim (codificar e decodificar) e, quem sabe, poderá ser divertida. O projeto busca ser intuitivo e simples de usar, além de acessível a todos. Por fim, caso encontre algum bug, erro relacionado ao desempenho, design ou funcionamento do código, ou tenha uma sugestão de implementação, fique à vontade para me enviar. Analisarei a sua proposta! Tenha um bom dia, que Deus te abençoe.
 
+* Ícones utilizados foram baixados na plataforma [Icons8](https://icons8.com)
+
       João 14:06
       Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
 
